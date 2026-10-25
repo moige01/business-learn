@@ -1,0 +1,28 @@
+/* Lean Canvas interactivo. Se usa con assets/canvas.js y assets/style.css. */
+.lc{width:min(72rem,calc(100vw - 2rem));margin:1.5rem auto;font:.9rem/1.45 system-ui,sans-serif}
+.lc-grid{display:grid;gap:.6rem;grid-template-columns:1fr}
+.lc-f{background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:.55rem .65rem;display:flex;flex-direction:column}
+.lc-f label{font-weight:700;font-size:.8rem;text-transform:uppercase;letter-spacing:.04em}
+.lc-f .hint{color:var(--muted);font-size:.75rem;margin-bottom:.3rem}
+.lc-f textarea{flex:1;min-height:5.5rem;width:100%;resize:vertical;font:inherit;color:var(--fg);background:var(--bg);border:1px solid var(--rule);border-radius:4px;padding:.4rem}
+.lc-f select{margin-top:.35rem;font:inherit;font-size:.8rem;color:var(--fg);background:var(--bg);border:1px solid var(--rule);border-radius:4px;padding:.2rem}
+.lc-f.sub{background:transparent;border-style:dashed}
+@media(min-width:900px){
+ .lc-grid{grid-template-columns:repeat(5,1fr);grid-template-areas:
+  "problem solution uvp unfair segments"
+  "alt metrics concept channels early"
+  "costs costs revenue revenue revenue"}
+ .lc-f[data-id=problem]{grid-area:problem}.lc-f[data-id=solution]{grid-area:solution}
+ .lc-f[data-id=uvp]{grid-area:uvp}.lc-f[data-id=unfair]{grid-area:unfair}
+ .lc-f[data-id=segments]{grid-area:segments}.lc-f[data-id=alt]{grid-area:alt}
+ .lc-f[data-id=metrics]{grid-area:metrics}.lc-f[data-id=concept]{grid-area:concept}
+ .lc-f[data-id=channels]{grid-area:channels}.lc-f[data-id=early]{grid-area:early}
+ .lc-f[data-id=costs]{grid-area:costs}.lc-f[data-id=revenue]{grid-area:revenue}
+}
+.lc-checks{margin:1rem 0;padding:0;list-style:none}
+.lc-checks li{padding:.25rem 0;border-bottom:1px solid var(--rule)}
+.lc-checks .ok{color:var(--ok)}.lc-checks .warn{color:var(--bad)}.lc-checks .todo{color:var(--muted)}
+.lc-actions button{font:inherit;font-size:.85rem;color:var(--fg);background:var(--bg);border:1px solid var(--rule);border-radius:4px;padding:.4rem .8rem;margin-right:.4rem;cursor:pointer}
+.lc-actions button:hover{border-color:var(--accent)}
+.lc-msg{color:var(--muted);font-size:.8rem;margin-left:.4rem}
+@media print{.lc-actions,.lc-checks{display:none}}

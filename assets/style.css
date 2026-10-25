@@ -1,0 +1,24 @@
+:root{--bg:#fffdf8;--fg:#1f2328;--muted:#6b7280;--accent:#b4442b;--rule:#e6e0d2;--ok:#2f7d4f;--bad:#b4442b;--card:#f6f1e6}
+@media (prefers-color-scheme:dark){:root{--bg:#16140f;--fg:#ece7da;--muted:#9a9484;--accent:#e08a6f;--rule:#35312a;--ok:#6fbf8e;--bad:#e08a6f;--card:#201d16}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:18px/1.65 Georgia,"Iowan Old Style",serif}
+main{max-width:42rem;margin:0 auto;padding:2.5rem 1rem 5rem}
+h1{font-size:2rem;line-height:1.2;margin:.2em 0}
+h2{font-size:1.3rem;margin:2.2em 0 .4em;border-top:1px solid var(--rule);padding-top:1em}
+.meta{color:var(--muted);font:.85rem/1.4 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.06em}
+a{color:var(--accent)}
+.note{background:var(--card);border-left:3px solid var(--accent);padding:.7em 1em;margin:1.2em 0;font-size:.95rem}
+.src{color:var(--muted);font:.8rem system-ui,sans-serif}
+table{border-collapse:collapse;width:100%;font:.9rem/1.4 system-ui,sans-serif;margin:1em 0}
+th,td{border-bottom:1px solid var(--rule);padding:.5em .6em;text-align:left;vertical-align:top}
+th{color:var(--muted);font-weight:600}
+.q{background:var(--card);padding:1em 1.2em;margin:1.2em 0;border-radius:6px}
+.q p{margin:.2em 0 .6em;font-weight:600}
+.q button{display:block;width:100%;text-align:left;margin:.3em 0;padding:.55em .8em;font:inherit;font-size:.95rem;color:var(--fg);background:var(--bg);border:1px solid var(--rule);border-radius:4px;cursor:pointer}
+.q button:hover{border-color:var(--accent)}
+.q button.ok{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 15%,var(--bg))}
+.q button.bad{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 15%,var(--bg))}
+.q .fb{font:.9rem/1.5 system-ui,sans-serif;color:var(--muted);margin-top:.5em;min-height:1.4em}
+.score{font:600 1rem system-ui,sans-serif}
+nav.lessons{font:.9rem system-ui,sans-serif;margin-top:3rem;border-top:1px solid var(--rule);padding-top:1rem}
+@media print{body{font-size:11pt;background:#fff;color:#000}.q button{border:1px solid #999}}
