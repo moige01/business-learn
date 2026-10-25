@@ -1,0 +1,11 @@
+/* Matriz comparativa (competidores, alternativas). Usar junto a style.css. */
+.matriz{font-size:.78rem;line-height:1.35}
+.matriz th,.matriz td{padding:.35rem .45rem;vertical-align:top}
+.matriz th:first-child,.matriz td:first-child{white-space:nowrap;font-weight:600}
+.matriz td.si::before{content:"✔ ";color:#1a7f37}
+.matriz td.no::before{content:"✖ ";color:#b42318}
+.matriz td.nm::before{content:"· ";color:#6b7280}
+.matriz td.pa::before{content:"~ ";color:#b54708}
+.leyenda{font-size:.8rem;color:#555;margin:.3rem 0 1rem}
+.hallazgo{border-left:3px solid #b54708;padding:.2rem 0 .2rem .8rem;margin:1rem 0}
+@media print{.matriz{font-size:.65rem}}

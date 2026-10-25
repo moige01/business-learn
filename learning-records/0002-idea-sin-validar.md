@@ -1,3 +1,6 @@
+---
+status: superseded by LR-0003 (solo el encuadre del caso; la observación del problema de menús sigue vigente como hipótesis del módulo)
+---
 # Idea concreta, observada pero sin validar
 
 El usuario aportó su idea: SaaS de menús digitales para TVs (app Android TV + app móvil del gerente) para sucursales de comida en Venezuela. El problema (rehacer videos con diseñador para cambiar precio, foto o disponibilidad) es una observación anecdótica propia, no un hecho. Futuras lecciones deben usar esta idea como caso práctico y recordar que ya existen herramientas similares (Kitcast, OptiSigns, Easysignage) cuya presencia en Venezuela no está verificada.

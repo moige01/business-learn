@@ -23,6 +23,9 @@
   Use for: llenar "Alternativas existentes" y anclar precios. No se encontró nada específico para Venezuela en la búsqueda; eso no prueba que no exista.
 - [Bloomberg Línea (2021): precios en Venezuela y dólares](https://www.bloomberglinea.com/2021/09/02/reconversion-en-venezuela-precios-comienzan-a-aparecer-en-bolivares-digitales/)
   Artículo antiguo (2021) sobre precios que cambian a diario. Use for: contexto de la hipótesis sobre actualizar precios; verificar vigencia antes de usarlo como hecho.
+- Competidores POS/inventario en Venezuela (páginas de los proveedores, revisadas el 2026-10-25, marketing no verificado). Matriz completa: [reference/competidores.html](reference/competidores.html).
+  Modernos: [Wink POS](https://wink-pos.com/) (gratis, sin offline), [Fina](https://www.finapartner.com/) ($35/mes), [IUNCI](https://www.iunci.app/) (Android offline, desde $0), [FrixPOS](https://frixpos.com/) (offline, desde $0; mesas "próximamente"), [Axi Vende](https://axivende.com/), [LoTuyo / FOOD](https://lotuyo.app/food) (mesas, comanda digital, KDS; $19,99-29,99/mes). Tradicionales: [a2 Restaurante](https://a2.com.ve/producto/a2-restaurante/) (€652, mesas, comandas, mesonero Android), [Valery POS](https://www.valery.com/valery-pos.html), [Profit Plus](https://www.miprofit.com/).
+  Use for: llenar "Alternativas existentes", anclar precios, preparar preguntas de entrevista. Sin verificar: Xetux (sitio con error 521) y Platomico ([artículo](https://ecosistemastartup.com/?p=120240), no pude abrirlo; según buscador: POS + KDS + kioscos, ~400 locales en Venezuela).
 
 ## Wisdom (Communities)
 
@@ -37,4 +40,5 @@
 - No hay comunidad en español verificada, ni comunidad de restaurantes/dueños de franquicias en Venezuela (clave para entrevistas).
 - Faltan datos locales: conectividad e internet en restaurantes venezolanos, precios de software en Venezuela, quién paga y decide la compra.
 - Falta fuente sobre experimentos de precio y entrevistas más allá de lo que cubre _Running Lean_ (cap. 5-14, aún sin leer).
+- Competidores: faltan Xetux y Platomico (sin verificar), precios de Profit Plus y Valery (solo por distribuidor o cotización), y qué exige el SENIAT a un restaurante (factura fiscal / impresora fiscal). Ninguna página de proveedor prueba qué usan o pagan los restaurantes: eso solo sale de entrevistas.
 - Los libros son de 2010-2012; las herramientas web (Strategyzer, LEANSpark) cambian. Verificar antes de recomendar software.
